@@ -2,7 +2,7 @@ function countLetters(str) {
   var noSpaces = str.split(' ').join("");
   var strCounted = {};
   for (var i = 0; i < noSpaces.length; i ++) {
-    keyVar = noSpaces[i];
+    var keyVar = noSpaces[i];
     if (strCounted[keyVar] === undefined) {
       strCounted[keyVar] = 1;
     } else {
